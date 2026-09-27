@@ -1,0 +1,50 @@
+{
+  "title": "Analysis code and derived reaction data for Cross-screen substrate profiles of Arabidopsis UDP-glycosyltransferases diverge by chemical series",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "description": "Processed 40-enzyme by 15-acceptor cross-screen comparison of Arabidopsis UGT calls from Yang et al. (2018) and Sirirungruang et al. (2025). Includes 600 matched units, explicit missingness, 578 tested pairs, identity records, full resampling outputs, analysis code, vector figures and readable supplementary data. Starting point is processed released reaction calls, not raw-MS reprocessing. Original software is licensed under MIT. The contributors' original derived data, annotations and compilation are licensed under CC BY 4.0; underlying third-party experimental data retain their original terms. See LICENSE, LICENSE-DATA.md and RIGHTS.md. The authors are Yuzhe Cui, Zhongwu Ma, Yiling Zuo, Chao He and Xueli He, in this order.",
+  "creators": [
+    {
+      "name": "Cui, Yuzhe",
+      "affiliation": "School of Life Sciences, Hebei University, No. 180, Wusidong Rd., Baoding 071002, China"
+    },
+    {
+      "name": "Ma, Zhongwu",
+      "affiliation": "School of Life Sciences, Hebei University, No. 180, Wusidong Rd., Baoding 071002, China"
+    },
+    {
+      "name": "Zuo, Yiling",
+      "affiliation": "School of Traditional Chinese Medicine, Hebei University, No. 180, Wusidong Rd., Baoding 071002, China"
+    },
+    {
+      "name": "He, Chao",
+      "affiliation": "Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, 100193, China"
+    },
+    {
+      "name": "He, Xueli",
+      "affiliation": "School of Life Sciences, Hebei University, No. 180, Wusidong Rd., Baoding 071002, China"
+    }
+  ],
+  "keywords": [
+    "Arabidopsis thaliana",
+    "UDP-glycosyltransferase",
+    "hydroxycinnamate",
+    "coumarin",
+    "cross-screen comparison"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://doi.org/10.1038/s41589-018-0154-9",
+      "relation": "isDerivedFrom",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "https://doi.org/10.1038/s41467-025-61530-6",
+      "relation": "isDerivedFrom",
+      "resource_type": "publication-article"
+    }
+  ],
+  "access_right": "open",
+  "license": "mit",
+  "language": "eng"
+}

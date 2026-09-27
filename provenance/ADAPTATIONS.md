@@ -26,3 +26,11 @@ On 27 September 2026 the user designated Manuscript(1).docx as the source for
 author names, order and affiliations. AUTHORS.md and CITATION.cff transcribe
 those records; the contribution statement is also present in that document.
 No scientific code, reaction inputs, estimates or plots changed in this update.
+
+## Public release metadata
+
+On 27 September 2026 the project owner authorized public repository access,
+DOI archiving, MIT licensing for the original code, and CC BY 4.0 for the
+project's own derived data. License files, versioned citation metadata and
+.zenodo.json were added. Third-party rights were retained. Scientific inputs,
+analysis scripts, numerical outputs and figures were unchanged.

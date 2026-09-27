@@ -20,3 +20,8 @@ authors:
     given-names: "Xueli"
     affiliation: "School of Life Sciences, Hebei University, No. 180, Wusidong Rd., Baoding 071002, China"
     email: "xlh3615@hbu.edu.cn"
+
+version: "1.0.0"
+license:
+  - MIT
+  - CC-BY-4.0

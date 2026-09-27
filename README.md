@@ -99,3 +99,15 @@ record the repository URL and exact Git commit. This repository does not assert
 manuscript acceptance or an archival DOI. Author names, order and affiliations
 were supplied from Manuscript(1).docx; see `AUTHORS.md` and `CITATION.cff`. See `RIGHTS.md`
 for the current licensing status.
+
+## Public release and licensing
+
+Version 1.0.0 preserves the scientific code, reaction inputs and numerical
+results of the verified snapshot. Original code and software documentation
+are licensed under MIT; original derived data, annotations and compilation
+are licensed under CC BY 4.0. Third-party source material retains its original
+rights. See LICENSE, LICENSE-DATA.md and RIGHTS.md.
+
+The Zenodo archival metadata in .zenodo.json records the five manuscript
+authors and three affiliations. An archival DOI will be added after Zenodo
+has registered the release; no unregistered DOI is used here.

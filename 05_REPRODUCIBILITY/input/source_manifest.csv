@@ -1,0 +1,12 @@
+﻿artifact,public_source_url,role,local_sha256,redistribution_note,path_or_url,sha256,bytes
+Y18_primary_article,https://doi.org/10.1038/s41589-018-0154-9,primary measured UGT screen,,use original public record,,,
+Y18_supplementary_materials,https://doi.org/10.1038/s41589-018-0154-9,source tables and reaction workbook,50e3f737f815ee13e6827d405323b758310f6cb5427e9bfc7fa8012b5a4fae6d,original source files are not redistributed in submission_ready,,,
+M25_primary_article,https://doi.org/10.1038/s41467-025-61530-6,primary substrate-multiplexed UGT screen,,use original public record,,,
+M25_supplementary_materials,https://doi.org/10.1038/s41467-025-61530-6,threshold product layers and metadata,7b982798a27ca53e7b294c06f81f9d6245219903f97f85631b8c4622435a997e,original source files are not redistributed in submission_ready,,,
+M25_public_generation_code,https://github.com/shaolab/gtscreen,public analysis/generation code,,verify current repository location before deposition,,,
+M25_raw_MS_archive,https://zenodo.org/records/15670423,raw MS archive intentionally not downloaded,,not redistributed,,,
+Y18_full_archive,https://ora.ox.ac.uk/objects/uuid:1b174bc0-4058-4057-8db4-59872c2b6d99/files/m96be5eb9bc4eb0b793297dba9e166051,full archive intentionally not downloaded,,not redistributed,,,
+Li2024_CommunicationsChemistry.pdf,,identity or targeted literature evidence,,,internal\source_evidence\Li2024_CommunicationsChemistry.pdf,645c5df35f4aad56ca2623faec883f45bbc5d6356c2f3cd9f01558b258660cbb,3280685.0
+Li2024_relevant_extract.txt,,identity or targeted literature evidence,,,internal\source_evidence\Li2024_relevant_extract.txt,1c062bc541e166029ee5d6d51acc52d655ea0a12b7804c328eaedea311d19dfe,13939.0
+SOURCE_EVIDENCE_MANIFEST.json,,identity or targeted literature evidence,,,internal\source_evidence\SOURCE_EVIDENCE_MANIFEST.json,2180f4d66dec035f1e88338aaad2ab17fcaa2de019170e2ada9b04c298a7ec90,567.0
+UniProt_Q9ZU72.fasta,,identity or targeted literature evidence,,,internal\source_evidence\UniProt_Q9ZU72.fasta,988796cb0c73e3fd832588f2a669ddfb549dedacd633bffaa6f2114d8a094c3e,583.0

@@ -1,0 +1,335 @@
+# Supplementary information
+
+## Supplementary methods
+
+This supplement presents sequence matching, connectivity-level acceptor matching, reaction summaries, sensitivity analyses and published biochemical context for the Arabidopsis comparison. Y18 denotes Yang et al. (2018), and M25 denotes Sirirungruang et al. (2025). Tables S1–S16 and Figures S1–S3 accompany Supplementary_Data.xlsx, which also contains the complete reaction matrix and full-precision analysis results.
+
+The comparison contains 40 common UGT constructs, 15 connectivity-matched acceptors and 600 enzyme–acceptor units. Twenty-two Y18 units are NOT_TESTED; the binary comparison therefore contains 578 tested pairs. Positive-in-both, Y18-only, M25-only and no-qualifying-product states are mutually exclusive; NOT_TESTED remains separate.
+
+For enzyme e and series s, Δe,s = (M25 positives − Y18 positives)/number of acceptors tested in both screens. The primary estimates average these contrasts over the 39 enzymes with at least two tested members of both focal series; D = mean ΔHCA − mean Δcoumarin. The exact-sequence analysis applies the same coverage rule to 31 exact names, retaining 30 enzymes.
+
+Uncertainty uses 500 shared family-prefix cluster-bootstrap draws per analysis set (seed 20260919; NumPy default_rng). The prefix includes the UGT number and following letter, such as UGT84A. The primary and exact sets contain 17 and 13 groups. Each draw samples the original number of groups with replacement, retaining all enzymes with cluster multiplicity. Both series and D use the same draw. Intervals are the 2.5th and 97.5th percentiles with linear interpolation. These intervals describe variation among enzyme groups; the screening calls do not provide replicate-level measurement uncertainty.
+
+For each acceptor, Y and M are the positive-enzyme sets restricted to enzymes tested in both sources. Jaccard overlap is |Y ∩ M| / |Y ∪ M|; an empty union is undefined, not zero. Agreement is the number of concordant positive or negative calls divided by tested pairs. Compound leave-one-out summaries pool the remaining tested pairs within a series. Threshold comparisons hold enzyme identity, acceptor identity and Y18 tested status fixed.
+
+## Supplementary Table S1. Enzyme construct matching
+
+The table gives the sequence evidence used to link the two screen records. Exact matches have identical sequence strings; high-identity matches meet at least 98.5% aligned identity and 95% coverage.
+
+| Enzyme | Match class | Identity | Coverage | Y18 / M25 length |
+|---|---|---|---|---|
+| UGT71B1 | exact | 100.00% | 100.00% | 473 / 473 |
+| UGT71B6 | exact | 100.00% | 100.00% | 479 / 479 |
+| UGT71B8 | exact | 100.00% | 100.00% | 480 / 480 |
+| UGT71C1 | exact | 100.00% | 100.00% | 481 / 481 |
+| UGT71C2 | exact | 100.00% | 100.00% | 474 / 474 |
+| UGT71C3 | exact | 100.00% | 100.00% | 476 / 476 |
+| UGT71C4 | exact | 100.00% | 100.00% | 479 / 479 |
+| UGT71C5 | exact | 100.00% | 100.00% | 480 / 480 |
+| UGT71D1 | exact | 100.00% | 100.00% | 467 / 467 |
+| UGT72B1 | exact | 100.00% | 100.00% | 480 / 480 |
+| UGT72B3 | exact | 100.00% | 100.00% | 481 / 481 |
+| UGT72C1 | high identity | 99.12% | 100.00% | 457 / 457 |
+| UGT72D1 | exact | 100.00% | 100.00% | 470 / 470 |
+| UGT72E1 | high identity | 100.00% | 100.00% | 478 / 487 |
+| UGT72E2 | exact | 100.00% | 100.00% | 481 / 481 |
+| UGT72E3 | exact | 100.00% | 100.00% | 481 / 481 |
+| UGT73B1 | exact | 100.00% | 100.00% | 488 / 488 |
+| UGT73B2 | high identity | 99.79% | 100.00% | 483 / 483 |
+| UGT73B3 | exact | 100.00% | 100.00% | 481 / 481 |
+| UGT73B4 | high identity | 100.00% | 100.00% | 460 / 484 |
+| UGT73B5 | exact | 100.00% | 100.00% | 484 / 484 |
+| UGT73C3 | exact | 100.00% | 100.00% | 496 / 496 |
+| UGT73C4 | exact | 100.00% | 100.00% | 496 / 496 |
+| UGT73C5 | exact | 100.00% | 100.00% | 495 / 495 |
+| UGT73C6 | exact | 100.00% | 100.00% | 495 / 495 |
+| UGT74B1 | exact | 100.00% | 100.00% | 460 / 460 |
+| UGT74F2 | exact | 100.00% | 100.00% | 449 / 449 |
+| UGT75D1 | high identity | 98.73% | 100.00% | 474 / 474 |
+| UGT76E12 | high identity | 100.00% | 100.00% | 453 / 458 |
+| UGT76E2 | exact | 100.00% | 100.00% | 449 / 449 |
+| UGT76E4 | exact | 100.00% | 100.00% | 452 / 452 |
+| UGT78D1 | exact | 100.00% | 100.00% | 453 / 453 |
+| UGT78D2 | exact | 100.00% | 100.00% | 460 / 460 |
+| UGT84A1 | high identity | 100.00% | 100.00% | 484 / 490 |
+| UGT84A2 | exact | 100.00% | 100.00% | 496 / 496 |
+| UGT84A3 | exact | 100.00% | 100.00% | 479 / 479 |
+| UGT84A4 | exact | 100.00% | 100.00% | 475 / 475 |
+| UGT84B2 | high identity | 99.77% | 100.00% | 450 / 438 |
+| UGT85A4 | exact | 100.00% | 100.00% | 489 / 489 |
+| UGT89B1 | high identity | 99.79% | 100.00% | 473 / 473 |
+
+Sequence hashes are retained in S1_EnzymeIdentity.csv as provenance fields.
+
+## Supplementary Table S2. Acceptor identity and connectivity matching
+
+The 14-character InChIKey block defines the matched molecular connectivity. Stereochemical equivalence remains unresolved at this level; the excluded collision is listed explicitly.
+
+| Acceptor | Connectivity key | M25 name | Decision |
+|---|---|---|---|
+| Baicalein | FXNFHKRTJBSTCS | BAICALEIN | included |
+| Esculetin | ILEDWLMCKZNDJK | ESCULETIN | included |
+| Gibberellin A3 | IXORZMNAPKEEDV | GIBBERELLIC ACID | included |
+| Kaempferol | IYRMWMYZSQPJKC | KAEMPFEROL | included |
+| Ferulic acid | KSEBMYQBYZTDHS | FERULIC ACID | included |
+| β-Sitosterol | KZJWDPNRJALLNS | BETA-SITOSTEROL | included |
+| Umbelliferone | ORHBXUUXSCNDEV | UMBELLIFERONE | included |
+| Sinapic acid | PCMORTLOPMLEFB | SINAPIC ACID | included |
+| Catechin / epicatechin / cianidanol | PFTAWBLQPZVEMU | CIANIDANOL \| EPICATECHIN | excluded: stereoisomer collision |
+| Dihydrojasmonic acid | PQEYTAGBXNEUQL | DIHYDROJASMONIC ACID | included |
+| Caffeic acid | QAIPRVGONGVQAS | CAFFEIC ACID | included |
+| Kinetin | QANMHLXAZMSUEX | KINETIN | included |
+| Quercetin | REFJWTPEDVJJIY | QUERCETIN | included |
+| Scopoletin | RODXRVNMMDRFIK | SCOPOLETIN | included |
+| Genistein | TZBJGXHYKVUXJN | GENISTEIN | included |
+| Fisetin | XHEFDIBZLJXQHF | FISETIN | included |
+
+## Supplementary Table S3. Reaction-state summary
+
+The 600-unit matrix is supplied as S3_ReactionUnits600.csv. The summary below reports the 0.85 M25 layer after enzyme and acceptor matching.
+
+| Reaction state | Units | Fraction of tested pairs |
+|---|---|---|
+| positive in both | 154 | 26.6% |
+| Y18-only | 113 | 19.6% |
+| M25-only | 55 | 9.5% |
+| no qualifying product in either | 256 | 44.3% |
+
+Y18 NOT_TESTED units (n=22) remain in the machine-readable matrix and are excluded from the tested-pair denominator.
+
+## Supplementary Table S4. Complete 15-acceptor landscape
+
+This table is the full acceptor context used to identify the biologically interpretable HCA–coumarin contrast. Positive fractions use each acceptor's tested denominator; Jaccard overlap is the intersection divided by the union of positive enzyme sets.
+
+| Acceptor | Chemical series | Tested pairs | Y18+ | M25+ | Agreement | Jaccard |
+|---|---|---|---|---|---|---|
+| Esculetin | Coumarins | 39 | 36 | 31 | 0.718 | 0.718 |
+| Scopoletin | Coumarins | 38 | 36 | 28 | 0.684 | 0.684 |
+| Umbelliferone | Coumarins | 39 | 15 | 28 | 0.462 | 0.344 |
+| Gibberellin A3 | Diterpenoids | 39 | 0 | 0 | 1.000 | — |
+| Baicalein | Flavonoids | 39 | 24 | 7 | 0.513 | 0.240 |
+| Fisetin | Flavonoids | 39 | 32 | 23 | 0.615 | 0.571 |
+| Kaempferol | Flavonoids | 39 | 35 | 25 | 0.641 | 0.622 |
+| Quercetin | Flavonoids | 39 | 29 | 27 | 0.744 | 0.697 |
+| Genistein | Isoflavonoids | 38 | 18 | 31 | 0.553 | 0.485 |
+| Dihydrojasmonic acid | Octadecanoids | 39 | 4 | 0 | 0.897 | 0.000 |
+| Caffeic acid | Phenylpropanoids | 39 | 17 | 0 | 0.564 | 0.000 |
+| Ferulic acid | Phenylpropanoids | 39 | 9 | 1 | 0.795 | 0.111 |
+| Sinapic acid | Phenylpropanoids | 39 | 12 | 0 | 0.692 | 0.000 |
+| Kinetin | Pseudoalkaloids | 39 | 0 | 0 | 1.000 | — |
+| β-Sitosterol | Steroids | 34 | 0 | 8 | 0.765 | 0.000 |
+
+## Supplementary Table S5. Chemical-series summaries
+
+Class-level summaries retain the tested denominator for each chemical class.
+
+| Series | Acceptors | Tested pairs | Y18+ | M25+ | Y18 fraction | M25 fraction | Agreement |
+|---|---|---|---|---|---|---|---|
+| Coumarins | 3 | 116 | 87 | 87 | 0.750 | 0.750 | 0.621 |
+| Diterpenoids | 1 | 39 | 0 | 0 | 0.000 | 0.000 | 1.000 |
+| Flavonoids | 4 | 156 | 120 | 82 | 0.769 | 0.526 | 0.628 |
+| Isoflavonoids | 1 | 38 | 18 | 31 | 0.474 | 0.816 | 0.553 |
+| Octadecanoids | 1 | 39 | 4 | 0 | 0.103 | 0.000 | 0.897 |
+| Phenylpropanoids | 3 | 117 | 38 | 1 | 0.325 | 0.009 | 0.684 |
+| Pseudoalkaloids | 1 | 39 | 0 | 0 | 0.000 | 0.000 | 1.000 |
+| Steroids | 1 | 34 | 0 | 8 | 0.000 | 0.235 | 0.765 |
+
+## Supplementary Table S6. Enzyme-level series contrasts
+
+All enzymes except UGT71D1 meet the two-series coverage rule. Fractions are positive calls divided by tested acceptors in each series; D = delta HCA minus delta coumarin.
+
+| Enzyme | HCA Y18 → M25 | ΔHCA | Coumarin Y18 → M25 | Δcoumarin | D |
+|---|---|---|---|---|---|
+| UGT71B1 | 1/3 → 0/3 | -0.333 | 3/3 → 3/3 | 0.000 | -0.333 |
+| UGT71B6 | 0/3 → 0/3 | 0.000 | 3/3 → 0/3 | -1.000 | 1.000 |
+| UGT71B8 | 1/3 → 0/3 | -0.333 | 2/3 → 3/3 | 0.333 | -0.667 |
+| UGT71C1 | 2/3 → 0/3 | -0.667 | 2/3 → 3/3 | 0.333 | -1.000 |
+| UGT71C2 | 2/3 → 0/3 | -0.667 | 2/3 → 3/3 | 0.333 | -1.000 |
+| UGT71C3 | 1/3 → 0/3 | -0.333 | 2/3 → 3/3 | 0.333 | -0.667 |
+| UGT71C4 | 1/3 → 0/3 | -0.333 | 3/3 → 3/3 | 0.000 | -0.333 |
+| UGT71C5 | 0/3 → 0/3 | 0.000 | 2/3 → 3/3 | 0.333 | -0.333 |
+| UGT71D1 | Not tested | — | 1/1 → 1/1 | 0.000 | — |
+| UGT72B1 | 0/3 → 0/3 | 0.000 | 3/3 → 3/3 | 0.000 | 0.000 |
+| UGT72B3 | 0/3 → 0/3 | 0.000 | 2/3 → 3/3 | 0.333 | -0.333 |
+| UGT72C1 | 0/3 → 0/3 | 0.000 | 2/3 → 2/3 | 0.000 | 0.000 |
+| UGT72D1 | 0/3 → 0/3 | 0.000 | 2/3 → 2/3 | 0.000 | 0.000 |
+| UGT72E1 | 0/3 → 0/3 | 0.000 | 2/3 → 3/3 | 0.333 | -0.333 |
+| UGT72E2 | 3/3 → 1/3 | -0.667 | 2/3 → 3/3 | 0.333 | -1.000 |
+| UGT72E3 | 3/3 → 0/3 | -1.000 | 2/3 → 0/3 | -0.667 | -0.333 |
+| UGT73B1 | 1/3 → 0/3 | -0.333 | 3/3 → 3/3 | 0.000 | -0.333 |
+| UGT73B2 | 0/3 → 0/3 | 0.000 | 1/2 → 2/2 | 0.500 | -0.500 |
+| UGT73B3 | 3/3 → 0/3 | -1.000 | 2/3 → 3/3 | 0.333 | -1.333 |
+| UGT73B4 | 0/3 → 0/3 | 0.000 | 2/3 → 3/3 | 0.333 | -0.333 |
+| UGT73B5 | 2/3 → 0/3 | -0.667 | 2/3 → 3/3 | 0.333 | -1.000 |
+| UGT73C3 | 0/3 → 0/3 | 0.000 | 2/3 → 3/3 | 0.333 | -0.333 |
+| UGT73C4 | 0/3 → 0/3 | 0.000 | 0/3 → 3/3 | 1.000 | -1.000 |
+| UGT73C5 | 0/3 → 0/3 | 0.000 | 3/3 → 3/3 | 0.000 | 0.000 |
+| UGT73C6 | 0/3 → 0/3 | 0.000 | 3/3 → 3/3 | 0.000 | 0.000 |
+| UGT74B1 | 0/3 → 0/3 | 0.000 | 3/3 → 3/3 | 0.000 | 0.000 |
+| UGT74F2 | 0/3 → 0/3 | 0.000 | 3/3 → 3/3 | 0.000 | 0.000 |
+| UGT75D1 | 1/3 → 0/3 | -0.333 | 2/3 → 2/3 | 0.000 | -0.333 |
+| UGT76E12 | 1/3 → 0/3 | -0.333 | 3/3 → 0/3 | -1.000 | 0.667 |
+| UGT76E2 | 0/3 → 0/3 | 0.000 | 2/3 → 1/3 | -0.333 | 0.333 |
+| UGT76E4 | 0/3 → 0/3 | 0.000 | 2/3 → 1/3 | -0.333 | 0.333 |
+| UGT78D1 | 0/3 → 0/3 | 0.000 | 0/2 → 2/2 | 1.000 | -1.000 |
+| UGT78D2 | 2/3 → 0/3 | -0.667 | 3/3 → 3/3 | 0.000 | -0.667 |
+| UGT84A1 | 3/3 → 0/3 | -1.000 | 3/3 → 0/3 | -1.000 | 0.000 |
+| UGT84A2 | 3/3 → 0/3 | -1.000 | 3/3 → 2/3 | -0.333 | -0.667 |
+| UGT84A3 | 3/3 → 0/3 | -1.000 | 3/3 → 3/3 | 0.000 | -1.000 |
+| UGT84A4 | 3/3 → 0/3 | -1.000 | 2/3 → 0/3 | -0.667 | -0.333 |
+| UGT84B2 | 1/3 → 0/3 | -0.333 | 3/3 → 1/3 | -0.667 | 0.333 |
+| UGT85A4 | 0/3 → 0/3 | 0.000 | 0/3 → 2/3 | 0.667 | -0.667 |
+| UGT89B1 | 1/3 → 0/3 | -0.333 | 2/3 → 0/3 | -0.667 | 0.333 |
+
+Arrows join counts over the same tested denominator. UGT71D1 is the coverage-limited row and has no D estimate.
+
+## Supplementary Table S7. Compound leave-one-out context
+
+Each row removes one acceptor from its focal series and recomputes the pooled series fractions.
+
+| Series | Omitted acceptor | Pairs | Y18 fraction | M25 fraction | Δ |
+|---|---|---|---|---|---|
+| HCA | Ferulic acid | 78 | 0.372 | 0.000 | -0.372 |
+| HCA | Sinapic acid | 78 | 0.333 | 0.013 | -0.321 |
+| HCA | Caffeic acid | 78 | 0.269 | 0.013 | -0.256 |
+| Coumarins | Esculetin | 77 | 0.662 | 0.727 | 0.065 |
+| Coumarins | Umbelliferone | 77 | 0.935 | 0.766 | -0.169 |
+| Coumarins | Scopoletin | 78 | 0.654 | 0.756 | 0.103 |
+
+## Supplementary Table S8. Exact-sequence sensitivity
+
+The exact-sequence set contains 31 names and 30 enzymes meeting the series coverage rule. This table pools all available exact-sequence reactions, including the coverage-limited construct in the coumarin denominator. Equal-enzyme contrasts in Table S9 use only the 30 enzymes meeting the coverage rule.
+
+| Series | Tested pairs | Enzymes | Y18+ | M25+ | Y18 fraction | M25 fraction | delta |
+|---|---|---|---|---|---|---|---|
+| Coumarins | 90 | 31 | 67 | 74 | 0.744 | 0.822 | 0.078 |
+| HCA | 90 | 30 | 31 | 1 | 0.344 | 0.011 | -0.333 |
+
+## Supplementary Table S9. Shared cluster bootstrap
+
+The same family-prefix resample supplies delta HCA, delta coumarin and D. Complete resample rows are available in generated/bootstrap_full.csv.
+
+| Metric | Enzymes | Clusters | Estimate | Lower | Upper | Bootstrap mean |
+|---|---|---|---|---|---|---|
+| HCA | 39 | 17 | -0.316 | -0.488 | -0.167 | -0.313 |
+| coumarins | 39 | 17 | 0.013 | -0.189 | 0.192 | 0.014 |
+| D | 39 | 17 | -0.329 | -0.496 | -0.102 | -0.327 |
+| HCA | 30 | 13 | -0.333 | -0.556 | -0.152 | -0.342 |
+| coumarins | 30 | 13 | 0.089 | -0.083 | 0.230 | 0.081 |
+| D | 30 | 13 | -0.422 | -0.616 | -0.177 | -0.422 |
+
+## Supplementary Figure S1. Threshold sensitivity
+
+The four M25 product-calling thresholds are evaluated with fixed enzyme matching and fixed tested denominators.
+![Supplementary Figure S1](Supplementary_Figure_S1.png)
+Supplementary Figure S1. Agreement and M25 positive calls across the four cosine thresholds. Each threshold uses the same 578 tested pairs. Visualization code assisted by OpenAI Codex.
+
+## Supplementary Table S10. M25 threshold sensitivity
+
+| M25 threshold | Tested pairs | Y18+ | M25+ | Agreement calls | Agreement fraction |
+|---|---|---|---|---|---|
+| 0.75 | 578 | 267 | 240 | 413 | 0.715 |
+| 0.80 | 578 | 267 | 223 | 414 | 0.716 |
+| 0.85 | 578 | 267 | 209 | 410 | 0.709 |
+| 0.90 | 578 | 267 | 185 | 408 | 0.706 |
+
+## Supplementary Figure S2. Exact-sequence sensitivity
+
+The exact-sequence set preserves the direction of the two-series contrast.
+![Supplementary Figure S2](Supplementary_Figure_S2.png)
+Supplementary Figure S2. Estimates and 95% family-prefix cluster intervals for HCA, coumarins and D. Filled diamonds denote the primary 39-enzyme set; open diamonds denote the 30 exact-sequence enzymes meeting the coverage rule. Each analysis uses 500 shared resamples. Visualization code assisted by OpenAI Codex.
+
+## Supplementary Table S11. Product-row aggregation
+
+| Step | Definition |
+|---|---|
+| Unit | One enzyme × connectivity-matched acceptor |
+| Threshold | Use the product table corresponding to the selected cosine-similarity threshold |
+| Aggregation | Group qualifying single- and double-glycosylated entries by enzyme, acceptor name and canonical SMILES; take the maximum AUC |
+| M25 call | Positive if the maximum AUC exceeds zero; otherwise the screened unit has no qualifying positive-area product |
+
+## Supplementary Table S12. Source provenance
+
+The source manifest preserves DOI, file names and SHA-256 values for the author-released datasets.
+
+| Source | DOI | Records |
+|---|---|---|
+| Yang et al. (2018) | 10.1038/s41589-018-0154-9 | Article, supplementary acceptor GAR matrix and sequence records |
+| Sirirungruang et al. (2025) | 10.1038/s41467-025-61530-6 | Article, Source Data and author-released threshold product tables |
+
+## Supplementary Figure S3. Enzyme coverage across the focal series
+
+Coverage is shown for all 40 common enzyme constructs.
+![Supplementary Figure S3](Supplementary_Figure_S3.png)
+Supplementary Figure S3. Number of tested HCA and coumarin acceptors among the 40 common enzymes. Enzymes sharing a coverage combination are aggregated; marker area is proportional to the labelled count. Filled markers represent the 39 enzymes meeting the coverage rule; the open marker represents UGT71D1. Visualization code assisted by OpenAI Codex.
+
+## Supplementary Table S13. Focal acceptor identity
+
+| Acceptor | Connectivity key | Canonical SMILES |
+|---|---|---|
+| Esculetin | ILEDWLMCKZNDJK | O=C1C=CC2=C(O1)C=C(O)C(O)=C2 |
+| Ferulic acid | KSEBMYQBYZTDHS | O=C(O)C=CC1=CC=C(O)C(OC)=C1 |
+| Umbelliferone | ORHBXUUXSCNDEV | O=C1C=CC2=C(O1)C=C(O)C=C2 |
+| Sinapic acid | PCMORTLOPMLEFB | COC1=CC(C=CC(O)=O)=CC(OC)=C1O |
+| Caffeic acid | QAIPRVGONGVQAS | O=C(O)C=CC1=CC=C(O)C(O)=C1 |
+| Scopoletin | RODXRVNMMDRFIK | O=C1OC2=C(C=C(C(O)=C2)OC)C=C1 |
+
+## Supplementary Table S14. Published biochemistry and cross-screen substrate profiles
+
+Published enzyme assays and plant studies provide biochemical context for the observed profiles. Their experimental conditions differ from those of the two screens.
+
+| Enzyme | Published biochemical evidence | Cross-screen profile | Interpretation |
+|---|---|---|---|
+| UGT84A1 | Hydroxycinnamate glucose-ester activity, including caffeic acid; UV-B-responsive UGT84A biology (Lim et al., 2001; Meißner et al., 2008). | 12/14 positives in Y18; 2/14 in M25. All three HCA and all three coumarins are Y18-only. | Contraction spans both series. |
+| UGT84A2 | Sinapate glucose-ester activity; UGT84A2-derived sinapoylglucose participates in anthocyanin modification (Lim et al., 2001; Yonekura-Sakakibara et al., 2012). | 12/14 → 4/14 positives. All three HCA are Y18-only; esculetin and umbelliferone are positive in both. | Different series responses within an identical recorded enzyme sequence. |
+| UGT84A3 | Hydroxycinnamate glucose-ester activity and phenylpropanoid redundancy in the UGT84A family (Meißner et al., 2008). | All three HCA are Y18-only; all three coumarins are positive in both. | Shared HCA contraction with persistent coumarin calls. |
+| UGT84A4 | Hydroxycinnamate glucosyltransferase assays and UV-B response experiments (Meißner et al., 2008). | All three HCA are Y18-only; two Y18 coumarin-positive calls are absent in M25. | Coumarin behavior differs among UGT84A enzymes. |
+| UGT76E12 | The two large screens provide the evidence for these six acceptors. | 9/15 → 1/15 positives. Caffeic acid and all three coumarins are Y18-only; ferulic and sinapic acids are negative in both. | Contraction spans both series. |
+| UGT73C5 | Brassinosteroid glucosylation established in planta (Poppenberger et al., 2005). | All three coumarins are positive in both screens; all three HCA are negative in both. | Stable biochemical screen profile; physiological evidence concerns brassinosteroids. |
+| UGT72D1 | Purified His-tagged Q9ZU72 (At2g18570; 470 aa) forms sinapic-acid and coniferyl-aldehyde 4-O-glucosides; sinapic-acid conversion depends on pH (Li et al., 2024). | 13/15 pairwise calls agree. Esculetin and scopoletin are positive in both; all three HCA are negative in both. | Published sinapic-acid activity coexists with negative calls under both screen conditions. |
+
+## Supplementary Table S15. Experimental contexts
+
+Y18 and M25 are independent studies; the purified validation is part of M25. pH and concentration values follow the cross-study comparison in Sirirungruang et al. (2025); purified validation details follow its Source Data. Conditions co-vary and are not isolated causal effects.
+
+| Feature | Y18 | M25 | M25 purified validation |
+|---|---|---|---|
+| Protein | Recombinant enzymes; GST-affinity purification | Recombinant E. coli lysate | Purified GST-fusion enzymes |
+| Acceptor format | Single acceptor | Pools of 40 acceptors | Single acceptor |
+| Reported pH | 7.8 | 6.8 | 7.6 |
+| Reported acceptor concentration | 0.1 mg/mL | 10 µM each | 50 µM |
+| Reported UDP-glucose | 177 µM | 83 µM | UDP-glucose donor |
+| Detection | Mass-spectrometric GAR score | LC–MS/MS product calls | Purified-enzyme product signal |
+| Replication | Single high-throughput measurements | Product rows aggregated into units | Three technical replicates in recovered Source Data |
+| Use here | Main matched source | Main matched source | Same-study context; no rows added to main matrix |
+
+## Supplementary Table S16. Threshold effects with fixed denominators
+
+Counts and equal-enzyme series contrasts are recomputed at each threshold below.
+
+The corresponding machine-readable threshold tables, reaction matrix and identity tables are supplied in 05_REPRODUCIBILITY/input/ and Supplementary_Data.xlsx.
+| Threshold | HCA Y18 → M25 | Coumarin Y18 → M25 | ΔHCA | Δcoumarin | D |
+|---|---|---|---|---|---|
+| 0.75 | 38/117 → 6/117 | 87/116 → 92/116 | -0.274 | 0.056 | -0.329 |
+| 0.80 | 38/117 → 4/117 | 87/116 → 88/116 | -0.291 | 0.021 | -0.312 |
+| 0.85 | 38/117 → 1/117 | 87/116 → 87/116 | -0.316 | 0.013 | -0.329 |
+| 0.90 | 38/117 → 1/117 | 87/116 → 82/116 | -0.316 | -0.030 | -0.286 |
+
+Each contrast averages over the same 39 enzymes meeting the coverage rule. Arrows show pooled counts over matched tested pairs.
+
+## Supplementary references
+
+Li, T., Borg, A.J.E., Krammer, L., Weber, H., Breinbauer, R., Nidetzky, B., 2024. Discovery, characterization, and comparative analysis of new UGT72 and UGT84 family glycosyltransferases. *Commun. Chem.* 7, 147. https://doi.org/10.1038/s42004-024-01231-1
+
+Lim, E.K., Li, Y., Parr, A., Jackson, R., Ashford, D.A., Bowles, D.J., 2001. Identification of glucosyltransferase genes involved in sinapate metabolism and lignin synthesis in Arabidopsis. *J. Biol. Chem.* 276, 4344–4349. https://doi.org/10.1074/jbc.M007263200
+
+Meißner, D., Albert, A., Böttcher, C., Strack, D., Milkowski, C., 2008. The role of UDP-glucose:hydroxycinnamate glucosyltransferases in phenylpropanoid metabolism and the response to UV-B radiation in Arabidopsis thaliana. *Planta* 228, 663–674. https://doi.org/10.1007/s00425-008-0768-3
+
+Poppenberger, B., Fujioka, S., Soeno, K., George, G.L., Vaistij, F.E., Hiranuma, S., Seto, H., Takatsuto, S., Adam, G., Yoshida, S., Bowles, D., 2005. The UGT73C5 of Arabidopsis thaliana glucosylates brassinosteroids. *Proc. Natl. Acad. Sci. U.S.A.* 102, 15253–15258. https://doi.org/10.1073/pnas.0504279102
+
+Sirirungruang, S., Blay, V., Rodriguez, E.P., Scott, Y.F., Vuu, K.M., Barnum, C.R., Opgenorth, P.H., Kong, F., Li, Y., Fiehn, O., Shih, P.M., 2025. A substrate-multiplexed platform for profiling enzymatic potential of plant family 1 glycosyltransferases. *Nat. Commun.* 16, 6366. https://doi.org/10.1038/s41467-025-61530-6
+
+Yang, M., Fehl, C., Lees, K.V., Lim, E.K., Offen, W.A., Davies, G.J., Bowles, D.J., Davidson, M.G., Roberts, S.J., Davis, B.G., 2018. Functional and informatics analysis enables glycosyltransferase activity prediction. *Nat. Chem. Biol.* 14, 1109–1117. https://doi.org/10.1038/s41589-018-0154-9
+
+Yonekura-Sakakibara, K., Fukushima, A., Nakabayashi, R., Hanada, K., Matsuda, F., Sugawara, S., Inoue, E., Kuromori, T., Ito, T., Shinozaki, K., Wangwattana, B., Yamazaki, M., Saito, K., 2012. Two glycosyltransferases involved in anthocyanin modification delineated by transcriptome independent component analysis in Arabidopsis thaliana. *Plant J.* 69, 154–167. https://doi.org/10.1111/j.1365-313X.2011.04779.x
+

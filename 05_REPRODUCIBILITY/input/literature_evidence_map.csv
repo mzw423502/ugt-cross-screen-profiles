@@ -1,0 +1,12 @@
+﻿Reference,DOI,Published biochemical or methodological evidence,Use in matched comparison,Claim boundary
+Lim et al. 2001,10.1074/jbc.M007263200,UGT84A1-A3 hydroxycinnamate glucose-ester specificity and kinetics,UGT84A1/A2 HCA calls in Y18; UGT84A2 sinapate is in focal series,Prior biochemical plausibility; does not establish cross-screen cause
+Lim et al. 2003,10.1093/glycob/cwg017,107 Arabidopsis UGT sequences; substrate-recognition evolution including hydroxycoumarins,Supports treating HCA and coumarins as chemically informative series,Family-level context; no current pair calls added
+Meßner et al. 2003,10.1007/s00425-002-0969-0,UGT84A1/A2 native substrates suppressed TCP glucosylation; direction only,Motivates single-versus-multiplex follow-up for UGT84A2 HCA calls,Substrate-environment hypothesis; no competitive mechanism assigned here
+Meißner et al. 2008,10.1007/s00425-008-0768-3,UGT84A1-A4 hydroxycinnamate glucosyltransferase function and UV-B context,Anchors UGT84 family comparison,Prior function and redundancy context
+Yonekura-Sakakibara et al. 2012,10.1111/j.1365-313X.2011.04779.x,UGT84A2-derived 1-O-sinapoylglucose in anthocyanin modification,Anchors UGT84A2 sinapate biology,In planta relevance; not a claim about M25 mechanism
+Offen et al. 2006,10.1038/sj.emboj.7600970,Plant UGT structure and donor/acceptor contacts,Supports constrained-but-broad acceptor recognition interpretation,Structural context; no UGT84A2 mechanism inferred
+Poppenberger et al. 2005,10.1073/pnas.0504279102,UGT73C5 brassinosteroid glucosylation in planta,Defines UGT73C5 comparator boundary,Does not establish coumarin physiology
+Li et al. 2024,10.1038/s42004-024-01231-1,UGT72/UGT84 family-dependent products and pH effects; Q9ZU72 UGT72D1,Defines concentration/pH/product-type hypotheses and comparator boundary,"Distinct object; context only, not direct equivalence"
+Matuszewski et al. 2003,10.1021/ac020361s,HPLC-MS/MS matrix ion suppression/enhancement,Motivates analytical recovery follow-up,"Testable explanation, not claimed cause"
+Yang et al. 2018,10.1038/s41589-018-0154-9,Y18 reaction-level screen and enzyme/acceptor source data,Primary Y18 data source,Current comparison source
+Sirirungruang et al. 2025,10.1038/s41467-025-61530-6,M25 substrate-multiplexed lysate screen and public source layers,Primary M25 data source,Current comparison source

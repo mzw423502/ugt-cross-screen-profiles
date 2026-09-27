@@ -1,0 +1,46 @@
+{
+  "reaction_units_file": "S3_ReactionUnits600.csv",
+  "enzyme_identity_file": "S1_EnzymeIdentity.csv",
+  "acceptor_identity_file": "S2_AcceptorIdentity.csv",
+  "family_prefix_regex": "^(UGT\\d+[A-Z])",
+  "focal_acceptors": {
+    "KSEBMYQBYZTDHS": {
+      "label": "Ferulic acid",
+      "s2_label": "FERULIC ACID",
+      "series": "HCA"
+    },
+    "QAIPRVGONGVQAS": {
+      "label": "Caffeic acid",
+      "s2_label": "CAFFEIC ACID",
+      "series": "HCA"
+    },
+    "PCMORTLOPMLEFB": {
+      "label": "Sinapic acid",
+      "s2_label": "SINAPIC ACID",
+      "series": "HCA"
+    },
+    "ILEDWLMCKZNDJK": {
+      "label": "Esculetin",
+      "s2_label": "ESCULETIN",
+      "series": "Coumarins"
+    },
+    "RODXRVNMMDRFIK": {
+      "label": "Scopoletin",
+      "s2_label": "SCOPOLETIN",
+      "series": "Coumarins"
+    },
+    "ORHBXUUXSCNDEV": {
+      "label": "Umbelliferone",
+      "s2_label": "UMBELLIFERONE",
+      "series": "Coumarins"
+    }
+  },
+  "bootstrap": {
+    "seed": 20260919,
+    "n_resamples": 500,
+    "rng": "numpy.random.default_rng",
+    "reset_seed_per_analysis_set": true,
+    "cluster_order": "sorted family_prefix",
+    "quantile_method": "numpy.quantile default linear"
+  }
+}

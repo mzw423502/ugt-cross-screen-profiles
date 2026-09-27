@@ -1,0 +1,5 @@
+threshold,n_identity_included_tested,y18_active_n,m25_active_n,agreement_n,agreement_fraction,identity_sensitivity_note
+0.75,578,267,240,413,0.7145328719723183,identity universe fixed; threshold changes only M25 qualifying-call layer
+0.8,578,267,223,414,0.7162629757785467,identity universe fixed; threshold changes only M25 qualifying-call layer
+0.85,578,267,209,410,0.7093425605536332,identity universe fixed; threshold changes only M25 qualifying-call layer
+0.9,578,267,185,408,0.7058823529411765,identity universe fixed; threshold changes only M25 qualifying-call layer

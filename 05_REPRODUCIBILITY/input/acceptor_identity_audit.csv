@@ -1,0 +1,17 @@
+key14,y_names,y_smiles,m_names,m_full_keys,identity_include,match_level,reason
+FXNFHKRTJBSTCS,Baicalein,O=C1C=C(C2=CC=CC=C2)OC3=C1C(O)=C(C(O)=C3)O,BAICALEIN,FXNFHKRTJBSTCS-UHFFFAOYSA-N,True,connectivity_match_stereo_unresolved,included_for_connectivity_level_comparison
+ILEDWLMCKZNDJK,"6,7-dihydroxy coumarin (Esculetin)",O=C1C=CC2=C(O1)C=C(O)C(O)=C2,ESCULETIN,ILEDWLMCKZNDJK-UHFFFAOYSA-N,True,connectivity_match_stereo_unresolved,included_for_connectivity_level_comparison
+IXORZMNAPKEEDV,Gibberellin A3,C[C@@]12[C@@H](O)C=C[C@]3(OC2=O)[C@]1([H])[C@H](C(O)=O)[C@]4(CC5=C)[C@@]3([H])CC[C@]5(O)C4,GIBBERELLIC ACID,IXORZMNAPKEEDV-OBDJNFEBSA-N,True,connectivity_match_stereo_unresolved,included_for_connectivity_level_comparison
+IYRMWMYZSQPJKC,Kaempferol,OC1=C(C2=CC=C(O)C=C2)OC3=C(C(O)=CC(O)=C3)C1=O,KAEMPFEROL,IYRMWMYZSQPJKC-UHFFFAOYSA-N,True,connectivity_match_stereo_unresolved,included_for_connectivity_level_comparison
+KSEBMYQBYZTDHS,4-hydroxy 3-methoxy cinnamic acid,O=C(O)C=CC1=CC=C(O)C(OC)=C1,FERULIC ACID,KSEBMYQBYZTDHS-HWKANZROSA-N,True,connectivity_match_stereo_unresolved,included_for_connectivity_level_comparison
+KZJWDPNRJALLNS,β-Sitosterol,CC[C@@H](C(C)C)CC[C@H]([C@H]1CC[C@@H]2[C@]1(C)CC[C@H]3[C@H]2CC=C4[C@]3(C)CC[C@H](O)C4)C,BETA-SITOSTEROL,KZJWDPNRJALLNS-VJSFXXLFSA-N,True,connectivity_match_stereo_unresolved,included_for_connectivity_level_comparison
+ORHBXUUXSCNDEV,Umbelliferone,O=C1C=CC2=C(O1)C=C(O)C=C2,UMBELLIFERONE,ORHBXUUXSCNDEV-UHFFFAOYSA-N,True,connectivity_match_stereo_unresolved,included_for_connectivity_level_comparison
+PCMORTLOPMLEFB,Sinapic acid,COC1=CC(C=CC(O)=O)=CC(OC)=C1O,SINAPIC ACID,PCMORTLOPMLEFB-ONEGZZNKSA-N,True,connectivity_match_stereo_unresolved,included_for_connectivity_level_comparison
+PFTAWBLQPZVEMU,Catechin,OC1C(C2=CC=C(O)C(O)=C2)OC3=C(C(O)=CC(O)=C3)C1,CIANIDANOL | EPICATECHIN,PFTAWBLQPZVEMU-DZGCQCFKSA-N | PFTAWBLQPZVEMU-UKRRQHHQSA-N,False,identity_conflict_connectivity_collapses_multiple_M25_stereoisomer_names,excluded_independent_of_activity_labels
+PQEYTAGBXNEUQL,Dihydrojasmonic acid,O=C1CC[C@@H]([C@H]1CCCCC)CC(O)=O,DIHYDROJASMONIC ACID,PQEYTAGBXNEUQL-UHFFFAOYSA-N,True,connectivity_match_stereo_unresolved,included_for_connectivity_level_comparison
+QAIPRVGONGVQAS,"3,4-dihyroxy cinnamic acid",O=C(O)C=CC1=CC=C(O)C(O)=C1,CAFFEIC ACID,QAIPRVGONGVQAS-DUXPYHPUSA-N,True,connectivity_match_stereo_unresolved,included_for_connectivity_level_comparison
+QANMHLXAZMSUEX,Kinetin,C1(CNC2=NC=NC3=C2NC=N3)=CC=CO1,KINETIN,QANMHLXAZMSUEX-UHFFFAOYSA-N,True,connectivity_match_stereo_unresolved,included_for_connectivity_level_comparison
+REFJWTPEDVJJIY,Quercetin,OC1=C(C2=CC=C(O)C(O)=C2)OC3=C(C(O)=CC(O)=C3)C1=O,QUERCETIN,REFJWTPEDVJJIY-UHFFFAOYSA-N,True,connectivity_match_stereo_unresolved,included_for_connectivity_level_comparison
+RODXRVNMMDRFIK,7-hydroxy 6-methoxy coumarin (Scopoletin),O=C1OC2=C(C=C(C(O)=C2)OC)C=C1,SCOPOLETIN,RODXRVNMMDRFIK-UHFFFAOYSA-N,True,connectivity_match_stereo_unresolved,included_for_connectivity_level_comparison
+TZBJGXHYKVUXJN,Genistein,O=C1C(C2=CC=C(O)C=C2)=COC3=C1C(O)=CC(O)=C3,GENISTEIN,TZBJGXHYKVUXJN-UHFFFAOYSA-N,True,connectivity_match_stereo_unresolved,included_for_connectivity_level_comparison
+XHEFDIBZLJXQHF,Fisetin,OC1=CC(OC(C2=CC(O)=C(O)C=C2)=C(O)C3=O)=C3C=C1,FISETIN,XHEFDIBZLJXQHF-UHFFFAOYSA-N,True,connectivity_match_stereo_unresolved,included_for_connectivity_level_comparison

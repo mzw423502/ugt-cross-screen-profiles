@@ -1,0 +1,22 @@
+{
+  "audit": {
+    "identity_included_units": 600,
+    "enzyme_n": 40,
+    "acceptor_n": 15,
+    "y18_not_tested_units": 22,
+    "tested_pairs": 578,
+    "four_state_counts": {"double_positive": 154, "double_not_detected": 256, "y18_only": 113, "m25_only": 55},
+    "exact_sequence_enzyme_n": 31,
+    "exact_sequence_comparable_units": 445,
+    "series_eligible_enzyme_n": 39,
+    "exact_series_eligible_enzyme_n": 30
+  },
+  "effects": [
+    {"analysis_set":"all_39_series_adequate","metric_id":"HCA","estimate":-0.3162393162393163,"lower":-0.4883251500272776,"upper":-0.1666666666666666},
+    {"analysis_set":"all_39_series_adequate","metric_id":"coumarins","estimate":0.0128205128205128,"lower":-0.1888170779475127,"upper":0.1924572649572649},
+    {"analysis_set":"all_39_series_adequate","metric_id":"D","estimate":-0.3290598290598290,"lower":-0.4963293650793650,"upper":-0.1017823749415614},
+    {"analysis_set":"exact31_30_series_adequate","metric_id":"HCA","estimate":-0.3333333333333333,"lower":-0.5555555555555556,"upper":-0.1516017025089606},
+    {"analysis_set":"exact31_30_series_adequate","metric_id":"coumarins","estimate":0.0888888888888888,"lower":-0.0833333333333333,"upper":0.2303492484526967},
+    {"analysis_set":"exact31_30_series_adequate","metric_id":"D","estimate":-0.4222222222222221,"lower":-0.6157925407925408,"upper":-0.1765046296296298}
+  ]
+}

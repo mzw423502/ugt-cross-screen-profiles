@@ -1,0 +1,542 @@
+[
+  {
+    "path": "02_FIGURES/Figure_1.pdf",
+    "source_sha256": "63839145af1e82571a2caa59a149ec21223bdce771276f6154e19a6958cd90d9",
+    "repository_sha256": "63839145af1e82571a2caa59a149ec21223bdce771276f6154e19a6958cd90d9",
+    "unchanged": true
+  },
+  {
+    "path": "02_FIGURES/Figure_1.png",
+    "source_sha256": "66620058b10181595c1c2ee3e30aabaa1d292cdaff7c7c7ea7d771715efcc644",
+    "repository_sha256": "66620058b10181595c1c2ee3e30aabaa1d292cdaff7c7c7ea7d771715efcc644",
+    "unchanged": true
+  },
+  {
+    "path": "02_FIGURES/Figure_1.svg",
+    "source_sha256": "4d4dd4361d6230b4e0a791a1f2dbdafbbcd7eba12344bb75b02ded53ebbf6a08",
+    "repository_sha256": "4d4dd4361d6230b4e0a791a1f2dbdafbbcd7eba12344bb75b02ded53ebbf6a08",
+    "unchanged": true
+  },
+  {
+    "path": "02_FIGURES/Figure_2.pdf",
+    "source_sha256": "d327140f8f289db199477e658efcede3d524c5a13afb17ef540f15c1ceb6397e",
+    "repository_sha256": "d327140f8f289db199477e658efcede3d524c5a13afb17ef540f15c1ceb6397e",
+    "unchanged": true
+  },
+  {
+    "path": "02_FIGURES/Figure_2.png",
+    "source_sha256": "405660a6844f94f83d0ea3d6e2662b20ecb2a0c6fcf2fbaa64938b328c37a4e0",
+    "repository_sha256": "405660a6844f94f83d0ea3d6e2662b20ecb2a0c6fcf2fbaa64938b328c37a4e0",
+    "unchanged": true
+  },
+  {
+    "path": "02_FIGURES/Figure_2.svg",
+    "source_sha256": "88aa0dbf6ca0410460c2b78b9090d47d1bad5a225795fd541743fbf659f72850",
+    "repository_sha256": "88aa0dbf6ca0410460c2b78b9090d47d1bad5a225795fd541743fbf659f72850",
+    "unchanged": true
+  },
+  {
+    "path": "02_FIGURES/Figure_3.pdf",
+    "source_sha256": "a59ca89b9e8a32e5faebaca8c4aab41f4510214351b95919ea482b2521eb01ae",
+    "repository_sha256": "a59ca89b9e8a32e5faebaca8c4aab41f4510214351b95919ea482b2521eb01ae",
+    "unchanged": true
+  },
+  {
+    "path": "02_FIGURES/Figure_3.png",
+    "source_sha256": "51767ff6be61944f2a7e0366de99e852a8d50275bf35b3ee58fae8b4ba785ad2",
+    "repository_sha256": "51767ff6be61944f2a7e0366de99e852a8d50275bf35b3ee58fae8b4ba785ad2",
+    "unchanged": true
+  },
+  {
+    "path": "02_FIGURES/Figure_3.svg",
+    "source_sha256": "0c57e1ccc635957ee43d8dd3a4e1f5b432eb5b00557dc0c3adc010a50174772c",
+    "repository_sha256": "0c57e1ccc635957ee43d8dd3a4e1f5b432eb5b00557dc0c3adc010a50174772c",
+    "unchanged": true
+  },
+  {
+    "path": "03_SUPPLEMENT/Figure_Captions.md",
+    "source_sha256": "c80c8b4b517e6d02399f09ff1b40dceff76ca8895a94d6de1e58983a7120e3cb",
+    "repository_sha256": "c80c8b4b517e6d02399f09ff1b40dceff76ca8895a94d6de1e58983a7120e3cb",
+    "unchanged": true
+  },
+  {
+    "path": "03_SUPPLEMENT/Supplementary_Data.xlsx",
+    "source_sha256": "fe19e026c67f1d129a52f10e326e19fd64d3ea767cdf5aba0ac6f33d8163cc4f",
+    "repository_sha256": "fe19e026c67f1d129a52f10e326e19fd64d3ea767cdf5aba0ac6f33d8163cc4f",
+    "unchanged": true
+  },
+  {
+    "path": "03_SUPPLEMENT/Supplementary_Figure_S1.pdf",
+    "source_sha256": "930c436e14238319c6fad11af6c855c85ad45f90e6eb5c4a3c8b68f6fabf80b6",
+    "repository_sha256": "930c436e14238319c6fad11af6c855c85ad45f90e6eb5c4a3c8b68f6fabf80b6",
+    "unchanged": true
+  },
+  {
+    "path": "03_SUPPLEMENT/Supplementary_Figure_S1.png",
+    "source_sha256": "207fd5a1f42915cdd7f12a35b38f8472a1244d01edf7524c268d6d24d395aaa1",
+    "repository_sha256": "207fd5a1f42915cdd7f12a35b38f8472a1244d01edf7524c268d6d24d395aaa1",
+    "unchanged": true
+  },
+  {
+    "path": "03_SUPPLEMENT/Supplementary_Figure_S1.svg",
+    "source_sha256": "7b2de801386b6ed3cd51e2d9de4ddef71e2b35881bccc2a698e973b322f14d1a",
+    "repository_sha256": "7b2de801386b6ed3cd51e2d9de4ddef71e2b35881bccc2a698e973b322f14d1a",
+    "unchanged": true
+  },
+  {
+    "path": "03_SUPPLEMENT/Supplementary_Figure_S2.pdf",
+    "source_sha256": "c6138687df341b7abf960d677f7b35c4cf001951a2703451c1c5446c586a7403",
+    "repository_sha256": "c6138687df341b7abf960d677f7b35c4cf001951a2703451c1c5446c586a7403",
+    "unchanged": true
+  },
+  {
+    "path": "03_SUPPLEMENT/Supplementary_Figure_S2.png",
+    "source_sha256": "82ec2b08e941f497e41dcaebc774d1df86c73f7c750565f5d52de9815491fafc",
+    "repository_sha256": "82ec2b08e941f497e41dcaebc774d1df86c73f7c750565f5d52de9815491fafc",
+    "unchanged": true
+  },
+  {
+    "path": "03_SUPPLEMENT/Supplementary_Figure_S2.svg",
+    "source_sha256": "b95d106e01fc248ed26bb072ded2c361a23d817067e1f3b37bbeddf38d85dfae",
+    "repository_sha256": "b95d106e01fc248ed26bb072ded2c361a23d817067e1f3b37bbeddf38d85dfae",
+    "unchanged": true
+  },
+  {
+    "path": "03_SUPPLEMENT/Supplementary_Figure_S3.pdf",
+    "source_sha256": "61885c7ceb7a28bd700566634bf4543aaa6f90c59bd76fdf4ecd71411ee4a2fe",
+    "repository_sha256": "61885c7ceb7a28bd700566634bf4543aaa6f90c59bd76fdf4ecd71411ee4a2fe",
+    "unchanged": true
+  },
+  {
+    "path": "03_SUPPLEMENT/Supplementary_Figure_S3.png",
+    "source_sha256": "dc69f44f0f9c4e0e85083e15814b7509aa82c0b551a91862284552ff816b5240",
+    "repository_sha256": "dc69f44f0f9c4e0e85083e15814b7509aa82c0b551a91862284552ff816b5240",
+    "unchanged": true
+  },
+  {
+    "path": "03_SUPPLEMENT/Supplementary_Figure_S3.svg",
+    "source_sha256": "1ebcb07022af2a56a01663dfb7fd2537e23c71b0651a7f57ac31cdbb6f8f7a7b",
+    "repository_sha256": "1ebcb07022af2a56a01663dfb7fd2537e23c71b0651a7f57ac31cdbb6f8f7a7b",
+    "unchanged": true
+  },
+  {
+    "path": "03_SUPPLEMENT/Supplementary_Information.md",
+    "source_sha256": "c742a801fe29a8e3ce8754a33f383cec53fd0b011f2d760fe34ba626c980b1c7",
+    "repository_sha256": "c742a801fe29a8e3ce8754a33f383cec53fd0b011f2d760fe34ba626c980b1c7",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/build_figures.py",
+    "source_sha256": "66687ef47e57931410b0cbab76508bda695698940fc738734d2ab75eaf1c4f39",
+    "repository_sha256": "66687ef47e57931410b0cbab76508bda695698940fc738734d2ab75eaf1c4f39",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/build_supplement.py",
+    "source_sha256": "3f00a743cc9b32607f17967c275a74033f83c43f736af0b56620fd39d29f60ad",
+    "repository_sha256": "cab2db05e4c92aa0b5f54cb1f0ba87aa84579d85b952d382f3e0ec98118ecd59",
+    "unchanged": false
+  },
+  {
+    "path": "05_REPRODUCIBILITY/build_workbook.mjs",
+    "source_sha256": "7e3dc3b8bf550267c10897bdb5e844a72d5848df99c83c57e74531d6befe8bb3",
+    "repository_sha256": "39ad77eb31b46bc154683c4c2eb7fcfe93fefc751f66f2f9e437bcc60b2e42ec",
+    "unchanged": false
+  },
+  {
+    "path": "05_REPRODUCIBILITY/frozen_expected.json",
+    "source_sha256": "48424f8cfdec43d62390f58a9937beedaba9c5c1a79a2bc231fc8c3cc2105bd2",
+    "repository_sha256": "48424f8cfdec43d62390f58a9937beedaba9c5c1a79a2bc231fc8c3cc2105bd2",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/generated/FINAL_NUMBERS.json",
+    "source_sha256": "0fb5ca1f8a1a07d47906630cfac02760e5d42d71bb03dee9b9906701c354c6f6",
+    "repository_sha256": "0fb5ca1f8a1a07d47906630cfac02760e5d42d71bb03dee9b9906701c354c6f6",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/generated/Fig2_effects.csv",
+    "source_sha256": "29922825d893d4293b59ca320dc3003883669ce7d603388936e85ba778dda042",
+    "repository_sha256": "29922825d893d4293b59ca320dc3003883669ce7d603388936e85ba778dda042",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/generated/acceptor_jaccard.csv",
+    "source_sha256": "f260936704be27ce83649462e05583c13ba5e0ad92746ac3fde2f25ea407e686",
+    "repository_sha256": "f260936704be27ce83649462e05583c13ba5e0ad92746ac3fde2f25ea407e686",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/generated/bootstrap_full.csv",
+    "source_sha256": "c8f6a859c4a6d67af780f22435f7529a53c69a338b508f9434634bac51192c0d",
+    "repository_sha256": "c8f6a859c4a6d67af780f22435f7529a53c69a338b508f9434634bac51192c0d",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/generated/bootstrap_series_final.csv",
+    "source_sha256": "51bd559eebc27854319c188bec5dfded42e8702ac8d03bf0bab8873ce95adf90",
+    "repository_sha256": "51bd559eebc27854319c188bec5dfded42e8702ac8d03bf0bab8873ce95adf90",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/generated/bootstrap_summary.csv",
+    "source_sha256": "6472290bda69b8a5c9d3f6f59d5b3991727c543d543ee2fe309c09bc45dba5d4",
+    "repository_sha256": "6472290bda69b8a5c9d3f6f59d5b3991727c543d543ee2fe309c09bc45dba5d4",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/generated/enzyme_paired_summary.csv",
+    "source_sha256": "8d6a23e79f8285bb69e477feaae0be6797636fff41334c35b75cd0a6c4e51091",
+    "repository_sha256": "8d6a23e79f8285bb69e477feaae0be6797636fff41334c35b75cd0a6c4e51091",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/generated/exact31_series_summary.csv",
+    "source_sha256": "e89c40de6247720566ebb4978ee21a640868c46d2009ff1f40e13f8d48da8c4d",
+    "repository_sha256": "e89c40de6247720566ebb4978ee21a640868c46d2009ff1f40e13f8d48da8c4d",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/generated/family_prefix_map.csv",
+    "source_sha256": "632a72a3ef9820442cccd6b3e711138b1f5c129da211e62306f4ef215b38110e",
+    "repository_sha256": "632a72a3ef9820442cccd6b3e711138b1f5c129da211e62306f4ef215b38110e",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/generated/figure_visual_encoding.json",
+    "source_sha256": "eaac0b2ddf6645d9913633b91b5afd9239918d0362b56a245ef77b3a698b2ef4",
+    "repository_sha256": "eaac0b2ddf6645d9913633b91b5afd9239918d0362b56a245ef77b3a698b2ef4",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/generated/molecule_counts.csv",
+    "source_sha256": "a3612c30876041304a57a7ec7a08d107c0db44a2e7735354668bed4d7065c20e",
+    "repository_sha256": "a3612c30876041304a57a7ec7a08d107c0db44a2e7735354668bed4d7065c20e",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/generated/per_enzyme_series.csv",
+    "source_sha256": "c9d22db69804dfaedf89fb34874ce52fcba5b09c47e21f6aa5185a622aebb103",
+    "repository_sha256": "c9d22db69804dfaedf89fb34874ce52fcba5b09c47e21f6aa5185a622aebb103",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/generated/per_enzyme_series_final.csv",
+    "source_sha256": "c9d22db69804dfaedf89fb34874ce52fcba5b09c47e21f6aa5185a622aebb103",
+    "repository_sha256": "c9d22db69804dfaedf89fb34874ce52fcba5b09c47e21f6aa5185a622aebb103",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/generated/reaction_audit.csv",
+    "source_sha256": "94c982e2aa47ba3701549e81bd1dab3d145f8015f045a50eeea6c4d14f298f69",
+    "repository_sha256": "94c982e2aa47ba3701549e81bd1dab3d145f8015f045a50eeea6c4d14f298f69",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/generated/recompute_config_used.json",
+    "source_sha256": "c77c150b7f544dfd2b94d99239d76f519af3ea7c3076ff2f578fd93b90d4bd1f",
+    "repository_sha256": "c77c150b7f544dfd2b94d99239d76f519af3ea7c3076ff2f578fd93b90d4bd1f",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/generated/supplement_readable_tables.json",
+    "source_sha256": "787b8857a9c9a63f4dfdc8554fa99df75ccf2bdcdce1f2cb2f4e83db3eeb2e75",
+    "repository_sha256": "787b8857a9c9a63f4dfdc8554fa99df75ccf2bdcdce1f2cb2f4e83db3eeb2e75",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/generated/workbook_content.json",
+    "source_sha256": "3a4b1cfb7773041a70fef16a7e4b32557831d6595bebde2d97b496ee4f094528",
+    "repository_sha256": "3a4b1cfb7773041a70fef16a7e4b32557831d6595bebde2d97b496ee4f094528",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/input/REFERENCE_VERIFICATION.csv",
+    "source_sha256": "fafe09fb08ec0a249e7a5e44b78b4b87588cccd0408358e148ab3b6dc1078dcc",
+    "repository_sha256": "fafe09fb08ec0a249e7a5e44b78b4b87588cccd0408358e148ab3b6dc1078dcc",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/input/S1_EnzymeIdentity.csv",
+    "source_sha256": "b87edb91439df63a1f16d4e339b40d0f15c725e1c4fc13c57e2773d7b876cb36",
+    "repository_sha256": "b87edb91439df63a1f16d4e339b40d0f15c725e1c4fc13c57e2773d7b876cb36",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/input/S2_AcceptorIdentity.csv",
+    "source_sha256": "8ea52223bab3982a7f22e557302293c43fd0c1ec550c2cbff55d310711814cb3",
+    "repository_sha256": "8ea52223bab3982a7f22e557302293c43fd0c1ec550c2cbff55d310711814cb3",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/input/S3_ReactionUnits600.csv",
+    "source_sha256": "8940bd2980e7d87fcc4ed7f9093e08f88ad89260cb4fc471db640ccfed97d885",
+    "repository_sha256": "8940bd2980e7d87fcc4ed7f9093e08f88ad89260cb4fc471db640ccfed97d885",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/input/TABLE_INVENTORY.csv",
+    "source_sha256": "dccc820c41d2d910a0188060dbe222eb96a64912ecde6643b774b1d7fc58e1ed",
+    "repository_sha256": "dccc820c41d2d910a0188060dbe222eb96a64912ecde6643b774b1d7fc58e1ed",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/input/Table1_focal_enzyme_evidence.csv",
+    "source_sha256": "dd55b94f0b98092fdb7bb670b895e3dfc8a179a2947fee83247b5df748459d71",
+    "repository_sha256": "dd55b94f0b98092fdb7bb670b895e3dfc8a179a2947fee83247b5df748459d71",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/input/acceptor_identity_audit.csv",
+    "source_sha256": "e326fc4cd49577f0939122f4971503638e3048c743ac76fabc8e3e9bc8ac9e75",
+    "repository_sha256": "e326fc4cd49577f0939122f4971503638e3048c743ac76fabc8e3e9bc8ac9e75",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/input/acceptor_paired_summary_085.csv",
+    "source_sha256": "cd51d1b8210a699f72f24c119b43fa21cca5ee74fdbaa6f1584ba0b7c4cce40d",
+    "repository_sha256": "cd51d1b8210a699f72f24c119b43fa21cca5ee74fdbaa6f1584ba0b7c4cce40d",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/input/biochemical_evidence_table.csv",
+    "source_sha256": "0343f2a288f46d0b65399961d8f01537cfc18e15e4170e505d2f3e84e40d7008",
+    "repository_sha256": "0343f2a288f46d0b65399961d8f01537cfc18e15e4170e505d2f3e84e40d7008",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/input/bootstrap_series_final.csv",
+    "source_sha256": "51bd559eebc27854319c188bec5dfded42e8702ac8d03bf0bab8873ce95adf90",
+    "repository_sha256": "51bd559eebc27854319c188bec5dfded42e8702ac8d03bf0bab8873ce95adf90",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/input/chemical_class_paired_summary_085.csv",
+    "source_sha256": "75ad5443b1fa85a9cf61ccc4ec6e763a1a4b35d9f4fcac040fa1a0fbf46b4828",
+    "repository_sha256": "75ad5443b1fa85a9cf61ccc4ec6e763a1a4b35d9f4fcac040fa1a0fbf46b4828",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/input/effect_sizes_family_cluster_bootstrap.csv",
+    "source_sha256": "c5ce8f3ad584252830e087ab3fc4589b67c526d0b026489956a3aa2667d03b1e",
+    "repository_sha256": "c5ce8f3ad584252830e087ab3fc4589b67c526d0b026489956a3aa2667d03b1e",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/input/enzyme_identity_audit.csv",
+    "source_sha256": "058a1ebf27d0bad848faf4da0529ae3f408105ced3fe45194ce6a5198f6d9260",
+    "repository_sha256": "058a1ebf27d0bad848faf4da0529ae3f408105ced3fe45194ce6a5198f6d9260",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/input/enzyme_identity_audit_final_copy.csv",
+    "source_sha256": "f6f13987568d6f12ef29713f3dd7c85a657ad27bb99a50ccc4004fc3eab901ba",
+    "repository_sha256": "f6f13987568d6f12ef29713f3dd7c85a657ad27bb99a50ccc4004fc3eab901ba",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/input/enzyme_paired_summary_085.csv",
+    "source_sha256": "6fd03e5b293cc54d498864693de1f33c0fba8c61ab27c91d9e24b23aff09993c",
+    "repository_sha256": "6fd03e5b293cc54d498864693de1f33c0fba8c61ab27c91d9e24b23aff09993c",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/input/enzyme_series_breadth_085.csv",
+    "source_sha256": "69f329a64a6c13a9bc4c782b93a5e6efe72b0148be07469addd1a97c2ef7f669",
+    "repository_sha256": "69f329a64a6c13a9bc4c782b93a5e6efe72b0148be07469addd1a97c2ef7f669",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/input/enzyme_series_breadth_final.csv",
+    "source_sha256": "c9d22db69804dfaedf89fb34874ce52fcba5b09c47e21f6aa5185a622aebb103",
+    "repository_sha256": "c9d22db69804dfaedf89fb34874ce52fcba5b09c47e21f6aa5185a622aebb103",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/input/exact31_acceptor_summary.csv",
+    "source_sha256": "891f3dcd77978b712f3107560eba94b2092ecb19cc64b17e3e8f5e741be43ca9",
+    "repository_sha256": "891f3dcd77978b712f3107560eba94b2092ecb19cc64b17e3e8f5e741be43ca9",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/input/exact31_comparable_units.csv",
+    "source_sha256": "03a9be064e8cf08c7a230f4710d2ee18020d3b2e672c4421c120e79ac1373511",
+    "repository_sha256": "03a9be064e8cf08c7a230f4710d2ee18020d3b2e672c4421c120e79ac1373511",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/input/exact31_effect_sizes_family_cluster_bootstrap.csv",
+    "source_sha256": "b61b5334a6dc91cae48aee97c601cfdd32c0ad823a01251b5f515e561e00ec8d",
+    "repository_sha256": "b61b5334a6dc91cae48aee97c601cfdd32c0ad823a01251b5f515e561e00ec8d",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/input/exact31_enzyme_series_effects.csv",
+    "source_sha256": "dc76dc2037176489303bb536eebf72ee338d234086ff629887b6db2f6e8c8007",
+    "repository_sha256": "dc76dc2037176489303bb536eebf72ee338d234086ff629887b6db2f6e8c8007",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/input/exact31_enzyme_summary.csv",
+    "source_sha256": "a838c6a80e62813a2dfe4df6f4ed83f325e25011f362a2b1a0d6571e6e02de5d",
+    "repository_sha256": "a838c6a80e62813a2dfe4df6f4ed83f325e25011f362a2b1a0d6571e6e02de5d",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/input/exact31_focal_molecule_states.csv",
+    "source_sha256": "11ccd09394fc3f69ac0e14660ba69042716d06888380659198d6e8c19ed10e11",
+    "repository_sha256": "11ccd09394fc3f69ac0e14660ba69042716d06888380659198d6e8c19ed10e11",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/input/exact31_series_summary.csv",
+    "source_sha256": "b600f264c3f244473df2c7ab08f694e76be57722b126495948461b1d1c66e426",
+    "repository_sha256": "b600f264c3f244473df2c7ab08f694e76be57722b126495948461b1d1c66e426",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/input/figure1_breadth_input.csv",
+    "source_sha256": "c302cf02e39c54eadefad9bbee8501e159b5b2ecc24f46c44b9db8e95c7aed4b",
+    "repository_sha256": "c302cf02e39c54eadefad9bbee8501e159b5b2ecc24f46c44b9db8e95c7aed4b",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/input/focal_molecule_pair_states_085.csv",
+    "source_sha256": "c8bf7c41dc4013fbefc0d9de95e83a191501d1a3b4448a80652e26a887074829",
+    "repository_sha256": "c8bf7c41dc4013fbefc0d9de95e83a191501d1a3b4448a80652e26a887074829",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/input/leave_one_compound_out_series_sensitivity.csv",
+    "source_sha256": "d1f5cfb5ade358e7d02054dab5f2686c98c9b8259eaa85e82124ae5ff4b9aeb1",
+    "repository_sha256": "d1f5cfb5ade358e7d02054dab5f2686c98c9b8259eaa85e82124ae5ff4b9aeb1",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/input/literature_evidence_map.csv",
+    "source_sha256": "61e6355eff8fb0760d9ff6c23989abde1a489304c7ff76c6cbda00e16051a9ed",
+    "repository_sha256": "61e6355eff8fb0760d9ff6c23989abde1a489304c7ff76c6cbda00e16051a9ed",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/input/m25_call_correction_audit.csv",
+    "source_sha256": "91b2a020f23b6c318b858ea05d01adb7e18ead85a23e560807f8219e32b418e8",
+    "repository_sha256": "91b2a020f23b6c318b858ea05d01adb7e18ead85a23e560807f8219e32b418e8",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/input/m25_source_qc_summary.csv",
+    "source_sha256": "d83aaef2ce0149c693e6b46cddff74c541b7470c6a5a2bfe40b6ecd5acb5bd44",
+    "repository_sha256": "d83aaef2ce0149c693e6b46cddff74c541b7470c6a5a2bfe40b6ecd5acb5bd44",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/input/per_enzyme_series_final.csv",
+    "source_sha256": "c9d22db69804dfaedf89fb34874ce52fcba5b09c47e21f6aa5185a622aebb103",
+    "repository_sha256": "c9d22db69804dfaedf89fb34874ce52fcba5b09c47e21f6aa5185a622aebb103",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/input/q2_strict_overlap_0.75.csv",
+    "source_sha256": "8031f6ceaa03cb2bfdd7464702504893777df17860788e5306826a464c4b3004",
+    "repository_sha256": "8031f6ceaa03cb2bfdd7464702504893777df17860788e5306826a464c4b3004",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/input/q2_strict_overlap_0.80.csv",
+    "source_sha256": "4bb5e478ce8ab388fe0c3469deb4e2e127a9eb86d2c21925de1a4c8ab1770c8c",
+    "repository_sha256": "4bb5e478ce8ab388fe0c3469deb4e2e127a9eb86d2c21925de1a4c8ab1770c8c",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/input/q2_strict_overlap_0.85.csv",
+    "source_sha256": "a11391f4e1ad03cb090c3d0e30d200e912269b4cae40b4f649afbbd9a3f65b13",
+    "repository_sha256": "a11391f4e1ad03cb090c3d0e30d200e912269b4cae40b4f649afbbd9a3f65b13",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/input/q2_strict_overlap_0.90.csv",
+    "source_sha256": "72751311bd9ffa95ed927c63e28049ea5b776d221ab48c61af037a230349102c",
+    "repository_sha256": "72751311bd9ffa95ed927c63e28049ea5b776d221ab48c61af037a230349102c",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/input/q2_strict_overlap_085.csv",
+    "source_sha256": "a11391f4e1ad03cb090c3d0e30d200e912269b4cae40b4f649afbbd9a3f65b13",
+    "repository_sha256": "a11391f4e1ad03cb090c3d0e30d200e912269b4cae40b4f649afbbd9a3f65b13",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/input/recompute_config.json",
+    "source_sha256": "fc90deb3bcff7519930ea12715143bdb58fe1155f0770d5a2da9b9b3407d8577",
+    "repository_sha256": "fc90deb3bcff7519930ea12715143bdb58fe1155f0770d5a2da9b9b3407d8577",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/input/source_manifest.csv",
+    "source_sha256": "a4457428ba3f8c9641bdb6cf1cd6029b1070861bfb6f1ac3bde1024bb80f6472",
+    "repository_sha256": "a4457428ba3f8c9641bdb6cf1cd6029b1070861bfb6f1ac3bde1024bb80f6472",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/input/threshold_sensitivity_identity_fixed.csv",
+    "source_sha256": "26a14647b519dd62f3f89072f9c92d2a1139d8b87c1cdc8c9e0c0a58b0629b14",
+    "repository_sha256": "26a14647b519dd62f3f89072f9c92d2a1139d8b87c1cdc8c9e0c0a58b0629b14",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/input/threshold_source_audit.csv",
+    "source_sha256": "4515cb810e799f4c8425e921997cd69e2123b701e3585f32f7ab30ec096c6c88",
+    "repository_sha256": "4515cb810e799f4c8425e921997cd69e2123b701e3585f32f7ab30ec096c6c88",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/input/verified_references.bib",
+    "source_sha256": "84bff980e480ffe12464b05f4e7bd45712695548cd418688ae2af78aec5ac4fe",
+    "repository_sha256": "84bff980e480ffe12464b05f4e7bd45712695548cd418688ae2af78aec5ac4fe",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/input/verified_references.json",
+    "source_sha256": "ff12f1cbfeb244f954d159a8b9bae5c0f3a5faa20492fbeff2127747c2f538fc",
+    "repository_sha256": "ff12f1cbfeb244f954d159a8b9bae5c0f3a5faa20492fbeff2127747c2f538fc",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/prepare_workbook_data.py",
+    "source_sha256": "54295db0808ca9793a8b7122e15b8fcea08a419718b0cb4976947678f28e6fd4",
+    "repository_sha256": "54295db0808ca9793a8b7122e15b8fcea08a419718b0cb4976947678f28e6fd4",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/recompute_statistics.py",
+    "source_sha256": "f8330b00b89ef66a738771354242098c984b8ba8a547688a207ad9cec8e2f046",
+    "repository_sha256": "f8330b00b89ef66a738771354242098c984b8ba8a547688a207ad9cec8e2f046",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/requirements-analysis.txt",
+    "source_sha256": "f8bec04d6c846487875606cea1120c95b113950de7e8d03be985118263805ff7",
+    "repository_sha256": "f8bec04d6c846487875606cea1120c95b113950de7e8d03be985118263805ff7",
+    "unchanged": true
+  },
+  {
+    "path": "05_REPRODUCIBILITY/verify_statistics.py",
+    "source_sha256": "b09b615a04dd857c7197f4bce50fe4320353e3eeb84ee0a595635faaef313174",
+    "repository_sha256": "b09b615a04dd857c7197f4bce50fe4320353e3eeb84ee0a595635faaef313174",
+    "unchanged": true
+  },
+  {
+    "path": "06_QC/REFERENCES_CURRENT.md",
+    "source_sha256": "fbc5c0bcfa567c98ace85f05e92729b91feb0a233381d2dcaee5b5cd74ad7d0d",
+    "repository_sha256": "fbc5c0bcfa567c98ace85f05e92729b91feb0a233381d2dcaee5b5cd74ad7d0d",
+    "unchanged": true
+  },
+  {
+    "path": "06_QC/REFERENCE_VERIFICATION_CURRENT.csv",
+    "source_sha256": "3bdebc752bdfa4ec7358a0ca9ed5be69190c7a89954adac4f169a398243e5945",
+    "repository_sha256": "3bdebc752bdfa4ec7358a0ca9ed5be69190c7a89954adac4f169a398243e5945",
+    "unchanged": true
+  }
+]

@@ -1,0 +1,4 @@
+estimand,n_enzyme_families,n_enzyme_units,estimate,bootstrap_low,bootstrap_high,bootstrap_mean,bootstrap_resamples,seed,bootstrap_unit
+mean_delta_M25_minus_Y18_HCA,17,39,-0.3162393162393163,-0.48832515002727767,-0.16666666666666666,-0.3130773659956883,500,20260919,UGT family-prefix cluster
+mean_delta_M25_minus_Y18_Coumarins,17,39,0.012820512820512829,-0.1888170779475127,0.19245726495726495,0.013990331741302039,500,20260919,UGT family-prefix cluster
+mean_D_HCA_minus_Coumarins,17,39,-0.329059829059829,-0.49632936507936504,-0.10178237494156148,-0.32706769773699035,500,20260919,UGT family-prefix cluster

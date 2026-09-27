@@ -1,0 +1,228 @@
+{
+  "audit": {
+    "identity_included_units": 600,
+    "enzyme_n": 40,
+    "acceptor_n": 15,
+    "y18_not_tested_units": 22,
+    "tested_pairs": 578,
+    "four_state_counts": {
+      "double_not_detected": 256,
+      "double_positive": 154,
+      "y18_only": 113,
+      "m25_only": 55
+    },
+    "exact_sequence_enzyme_n": 31,
+    "exact_sequence_comparable_units": 445,
+    "series_eligible_enzyme_n": 39,
+    "exact_series_eligible_enzyme_n": 30
+  },
+  "focal_molecule_counts": [
+    {
+      "key14": "KSEBMYQBYZTDHS",
+      "acceptor_label": "Ferulic acid",
+      "series": "HCA",
+      "tested_units": 39,
+      "y18_positive": 9,
+      "m25_positive": 1,
+      "y18_fraction": 0.23076923076923078,
+      "m25_fraction": 0.02564102564102564
+    },
+    {
+      "key14": "QAIPRVGONGVQAS",
+      "acceptor_label": "Caffeic acid",
+      "series": "HCA",
+      "tested_units": 39,
+      "y18_positive": 17,
+      "m25_positive": 0,
+      "y18_fraction": 0.4358974358974359,
+      "m25_fraction": 0.0
+    },
+    {
+      "key14": "PCMORTLOPMLEFB",
+      "acceptor_label": "Sinapic acid",
+      "series": "HCA",
+      "tested_units": 39,
+      "y18_positive": 12,
+      "m25_positive": 0,
+      "y18_fraction": 0.3076923076923077,
+      "m25_fraction": 0.0
+    },
+    {
+      "key14": "ILEDWLMCKZNDJK",
+      "acceptor_label": "Esculetin",
+      "series": "Coumarins",
+      "tested_units": 39,
+      "y18_positive": 36,
+      "m25_positive": 31,
+      "y18_fraction": 0.9230769230769231,
+      "m25_fraction": 0.7948717948717948
+    },
+    {
+      "key14": "RODXRVNMMDRFIK",
+      "acceptor_label": "Scopoletin",
+      "series": "Coumarins",
+      "tested_units": 38,
+      "y18_positive": 36,
+      "m25_positive": 28,
+      "y18_fraction": 0.9473684210526315,
+      "m25_fraction": 0.7368421052631579
+    },
+    {
+      "key14": "ORHBXUUXSCNDEV",
+      "acceptor_label": "Umbelliferone",
+      "series": "Coumarins",
+      "tested_units": 39,
+      "y18_positive": 15,
+      "m25_positive": 28,
+      "y18_fraction": 0.38461538461538464,
+      "m25_fraction": 0.717948717948718
+    }
+  ],
+  "all_39_series_adequate": {
+    "n_enzymes": 39,
+    "n_groups": 17,
+    "pooled_descriptive": {
+      "HCA": {
+        "tested_units": 117,
+        "y18_positive": 38,
+        "m25_positive": 1,
+        "pooled_delta": -0.3162393162393162
+      },
+      "Coumarins": {
+        "tested_units": 115,
+        "y18_positive": 86,
+        "m25_positive": 86,
+        "pooled_delta": 0.0
+      }
+    },
+    "summary": [
+      {
+        "analysis_set": "all_39_series_adequate",
+        "metric_id": "HCA",
+        "display_label": "ΔHCA",
+        "estimate": -0.3162393162393163,
+        "lower": -0.48832515002727767,
+        "upper": -0.16666666666666666,
+        "bootstrap_mean": -0.3130773659956883,
+        "n_enzymes": 39,
+        "n_groups": 17,
+        "seed": 20260919,
+        "n_resamples": 500
+      },
+      {
+        "analysis_set": "all_39_series_adequate",
+        "metric_id": "coumarins",
+        "display_label": "Δcoumarin",
+        "estimate": 0.012820512820512829,
+        "lower": -0.1888170779475127,
+        "upper": 0.19245726495726495,
+        "bootstrap_mean": 0.013990331741302039,
+        "n_enzymes": 39,
+        "n_groups": 17,
+        "seed": 20260919,
+        "n_resamples": 500
+      },
+      {
+        "analysis_set": "all_39_series_adequate",
+        "metric_id": "D",
+        "display_label": "D = ΔHCA − Δcoumarin",
+        "estimate": -0.329059829059829,
+        "lower": -0.49632936507936504,
+        "upper": -0.10178237494156148,
+        "bootstrap_mean": -0.32706769773699035,
+        "n_enzymes": 39,
+        "n_groups": 17,
+        "seed": 20260919,
+        "n_resamples": 500
+      }
+    ]
+  },
+  "exact31_30_series_adequate": {
+    "exact_sequence_enzyme_n": 31,
+    "n_enzymes": 30,
+    "n_groups": 13,
+    "pooled_descriptive": {
+      "HCA": {
+        "tested_units": 90,
+        "y18_positive": 31,
+        "m25_positive": 1,
+        "pooled_delta": -0.3333333333333333
+      },
+      "Coumarins": {
+        "tested_units": 90,
+        "y18_positive": 67,
+        "m25_positive": 74,
+        "pooled_delta": 0.07777777777777778
+      }
+    },
+    "summary": [
+      {
+        "analysis_set": "exact31_30_series_adequate",
+        "metric_id": "HCA",
+        "display_label": "ΔHCA",
+        "estimate": -0.3333333333333333,
+        "lower": -0.5555555555555556,
+        "upper": -0.15160170250896063,
+        "bootstrap_mean": -0.3417000847895619,
+        "n_enzymes": 30,
+        "n_groups": 13,
+        "seed": 20260919,
+        "n_resamples": 500
+      },
+      {
+        "analysis_set": "exact31_30_series_adequate",
+        "metric_id": "coumarins",
+        "display_label": "Δcoumarin",
+        "estimate": 0.08888888888888888,
+        "lower": -0.08333333333333334,
+        "upper": 0.2303492484526967,
+        "bootstrap_mean": 0.08052617085140136,
+        "n_enzymes": 30,
+        "n_groups": 13,
+        "seed": 20260919,
+        "n_resamples": 500
+      },
+      {
+        "analysis_set": "exact31_30_series_adequate",
+        "metric_id": "D",
+        "display_label": "D = ΔHCA − Δcoumarin",
+        "estimate": -0.42222222222222217,
+        "lower": -0.6157925407925408,
+        "upper": -0.17650462962962982,
+        "bootstrap_mean": -0.4222262556409632,
+        "n_enzymes": 30,
+        "n_groups": 13,
+        "seed": 20260919,
+        "n_resamples": 500
+      }
+    ]
+  },
+  "bootstrap": {
+    "seed": 20260919,
+    "n_resamples": 500,
+    "rng": "numpy.random.default_rng",
+    "cluster_order": [
+      "UGT71B",
+      "UGT71C",
+      "UGT72B",
+      "UGT72C",
+      "UGT72D",
+      "UGT72E",
+      "UGT73B",
+      "UGT73C",
+      "UGT74B",
+      "UGT74F",
+      "UGT75D",
+      "UGT76E",
+      "UGT78D",
+      "UGT84A",
+      "UGT84B",
+      "UGT85A",
+      "UGT89B"
+    ],
+    "reset_seed_per_analysis_set": true,
+    "quantile_method": "numpy.quantile default linear",
+    "full_output": "bootstrap_full.csv",
+    "D_recomputed_each_replicate": true
+  }
+}

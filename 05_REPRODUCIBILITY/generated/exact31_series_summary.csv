@@ -1,0 +1,3 @@
+﻿series,tested_units,y18_positive,m25_positive,pooled_delta,focal_series,enzyme_n,acceptor_n,y18_active_fraction,m25_active_fraction,delta_m25_minus_y18
+HCA,90,31,1,-0.3333333333333333,HCA,30,3,0.34444444444444444,0.011111111111111112,-0.3333333333333333
+Coumarins,90,67,74,0.07777777777777778,Coumarins,31,3,0.7444444444444445,0.8222222222222222,0.07777777777777772

@@ -1,0 +1,28 @@
+{
+  "width_mm": 180,
+  "font": "Arial with DejaVu Sans fallback",
+  "font_roles_pt": [
+    9,
+    8
+  ],
+  "sources": {
+    "Y18": "black filled circle",
+    "M25": "black open square"
+  },
+  "series": {
+    "HCA": "#76578b",
+    "Coumarins": "#247d76",
+    "D": "#24282d"
+  },
+  "reaction_states": {
+    "Positive in both": "#41526b",
+    "Y18 only": "#d5ab5f",
+    "M25 only": "#8fc4dc",
+    "Neither positive": "#eef0f2",
+    "Y18 untested": "#ffffff"
+  },
+  "missing": "crossed white cell, excluded from binary denominators",
+  "molecules": "Explicit scaffold/substitution depictions, guarded by recorded SMILES and connectivity keys",
+  "minimum_intended_width_mm": 169,
+  "single_column": "not intended; use full-width figures"
+}

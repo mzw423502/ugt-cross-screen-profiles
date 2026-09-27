@@ -1,0 +1,21 @@
+{
+  "date": "2026-09-27",
+  "status": "PASS",
+  "validation_scope": "isolated repository copy on recorded local Python environment",
+  "command": "python reproduce.py --figures --supplement",
+  "exit_code": 0,
+  "numerical_tolerance": 1e-10,
+  "tested_pairs": 578,
+  "bootstrap_rows": 1000,
+  "effect_rows": 6,
+  "reproduced_text_and_csv_files_identical": 15,
+  "main_figures_built": 3,
+  "supplementary_figures_built": 3,
+  "workbook_json_sheets": 24,
+  "input_and_frozen_source_bytes_preserved": true,
+  "copied_source_files": 90,
+  "byte_identical_copies": 88,
+  "repository_portability_edits": 2,
+  "credentials_and_absolute_user_path_scan": "PASS",
+  "git_remote_verification": "recorded separately after upload"
+}

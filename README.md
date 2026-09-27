@@ -95,8 +95,7 @@ repository-only portability edits are listed in `provenance/ADAPTATIONS.md`.
 are recorded in `provenance/VALIDATION.json`.
 
 Cite the two original studies for their experimental data. For this software,
-record the repository URL and exact Git commit. This repository does not assert
-manuscript acceptance or an archival DOI. Author names, order and affiliations
+record the repository URL and exact Git commit. The public archive does not imply manuscript acceptance. Author names, order and affiliations
 were supplied from Manuscript(1).docx; see `AUTHORS.md` and `CITATION.cff`. See `RIGHTS.md`
 for the current licensing status.
 
@@ -108,6 +107,7 @@ are licensed under MIT; original derived data, annotations and compilation
 are licensed under CC BY 4.0. Third-party source material retains its original
 rights. See LICENSE, LICENSE-DATA.md and RIGHTS.md.
 
-The Zenodo archival metadata in .zenodo.json records the five manuscript
-authors and three affiliations. An archival DOI will be added after Zenodo
-has registered the release; no unregistered DOI is used here.
+Version 1.0.0 is archived at [10.5281/zenodo.22994959](https://doi.org/10.5281/zenodo.22994959).
+The record contains the five manuscript authors and three affiliations.
+The archive preserves release commit `adff639bea9b2ff64660b80c65d4b4379b2ca472`.
+Cite this version DOI when referring to the results reproduced by this release.

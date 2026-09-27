@@ -25,3 +25,6 @@ version: "1.0.0"
 license:
   - MIT
   - CC-BY-4.0
+
+doi: "10.5281/zenodo.22994959"
+date-released: "2026-09-27"

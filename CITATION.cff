@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Please cite this software repository and the original experimental studies listed in README.md."
+type: software
+title: "Analysis code for Cross-screen substrate profiles of Arabidopsis UDP-glycosyltransferases diverge by chemical series"
+repository-code: "https://github.com/mzw423502/ugt-cross-screen-profiles"
+authors:
+  - family-names: "Cui"
+    given-names: "Yuzhe"
+    affiliation: "School of Life Sciences, Hebei University, No. 180, Wusidong Rd., Baoding 071002, China"
+  - family-names: "Ma"
+    given-names: "Zhongwu"
+    affiliation: "School of Life Sciences, Hebei University, No. 180, Wusidong Rd., Baoding 071002, China"
+  - family-names: "Zuo"
+    given-names: "Yiling"
+    affiliation: "School of Traditional Chinese Medicine, Hebei University, No. 180, Wusidong Rd., Baoding 071002, China"
+  - family-names: "He"
+    given-names: "Chao"
+    affiliation: "Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, 100193, China"
+  - family-names: "He"
+    given-names: "Xueli"
+    affiliation: "School of Life Sciences, Hebei University, No. 180, Wusidong Rd., Baoding 071002, China"
+    email: "xlh3615@hbu.edu.cn"

@@ -19,3 +19,10 @@ manuscript and author forms are not part of this code release.
 
 No author identity, open license, new experiment, statistical result or DOI was
 created during repository preparation.
+
+## Supplied authorship metadata
+
+On 27 September 2026 the user designated Manuscript(1).docx as the source for
+author names, order and affiliations. AUTHORS.md and CITATION.cff transcribe
+those records; the contribution statement is also present in that document.
+No scientific code, reaction inputs, estimates or plots changed in this update.

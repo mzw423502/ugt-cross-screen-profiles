@@ -96,5 +96,6 @@ are recorded in `provenance/VALIDATION.json`.
 
 Cite the two original studies for their experimental data. For this software,
 record the repository URL and exact Git commit. This repository does not assert
-a manuscript acceptance, final author list or an archival DOI. See `RIGHTS.md`
+manuscript acceptance or an archival DOI. Author names, order and affiliations
+were supplied from Manuscript(1).docx; see `AUTHORS.md` and `CITATION.cff`. See `RIGHTS.md`
 for the current licensing status.

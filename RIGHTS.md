@@ -11,5 +11,6 @@ Third-party article PDFs and raw mass-spectrometry archives are not redistribute
 Source links and available hashes are in
 `05_REPRODUCIBILITY/input/source_manifest.csv`.
 
-Scientific authorship and repository-account ownership are separate. No final
-author identities, copyright assignments or archival DOI are inferred here.
+Scientific authorship and repository-account ownership are separate. Authors
+and affiliations are supplied in AUTHORS.md and CITATION.cff from the designated
+source manuscript. No copyright assignment, open license or archival DOI is inferred.
